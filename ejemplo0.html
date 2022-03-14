@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es" />
+<header>
+  <meta charset="UTF-8">
+</header>
+<!-- comentario bien -->
+<body>
+  <h1>"Hola mundo cruel"</h1>
+
+<!-- lista ordenada de elementos de ejemplo-->
+
+      <ol>
+          <li>Alemania</li>
+          <li>Brasil</li>
+          <li>Camerun</li>
+      </ol>
+<a href="../img/imagen1.jpg">enlace a una imagen</a>
+
+<img src="http://www.cursohtml5desdecero.com/assets/images/html-css-js.png" alt="Logo
+de Eduardo HTML5">
+
+<table>
+  <tr>
+    <td>Fila 1, columna 1</td>
+    <td colspan="3"> Fila 1, columnas 2, 3 y 4</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Fila 2, columna 1 + Fila 3, columna 1</td>
+    <td>Fila 2 columna 2</td>
+    <td>Fila 2 columna 3</td>
+    <td>Fila 2 columna 4</td>
+  </tr>
+  <tr>
+    <td>Fila 3 columna 2</td>
+    <td>Fila 3 columna 3</td>
+    <td>Fila 3 columna 4</td>
+  </tr>
+</table>
+
+<form action="miScript.php" method="GET">
+
+  <label for="to">Para:</label>
+  <input id="to" type="email">
+
+  <label for="topic">Temática: </label>
+  <select id="topic" name="topic">
+      <option>-- Elige un tema --</option>
+      <option value="proposal">Propuesta</option>
+      <option value="report">Reporte</option>
+      <option value="other">Otro</option>
+      <option value="Eduardo">Eduardo</option>
+  </select>
+
+  <label for="subject">Asunto: </label>
+  <input id="subject" name="subject" type="text">
+
+  <label for="body">Cuerpo:</label>
+  <textarea id="body" name="body"></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>
